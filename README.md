@@ -27,7 +27,7 @@ PPTP VPN centos 搭建脚本
 >cat: /dev/ppp: No such device or address           
 
 **脚本使用方法:**
->sh myPPTP.sh \$eth0 \$username \$passwd
+>sh myPPTP.sh $eth0 $username $passwd
         
 $eth0 指定流量转发网卡名称                 
 $username VPN用户名                
