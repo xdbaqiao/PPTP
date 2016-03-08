@@ -9,7 +9,7 @@ Test if your vps ppp is on, please input following commands:
 >cat: /dev/ppp: No such device or address           
 
 **Useage:**
->sh myPPTP.sh \$eth0 \$username \$passwd
+>sh myPPTP.sh $eth0 $username $passwd
         
 $eth0 is nwtwork card name    
 $username is vpn account username       
@@ -26,7 +26,6 @@ PPTP VPN centos 搭建脚本
 >$ cat /dev/ppp             
 >cat: /dev/ppp: No such device or address           
 
-----------------------------------
 **脚本使用方法:**
 >sh myPPTP.sh \$eth0 \$username \$passwd
         
